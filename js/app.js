@@ -7,6 +7,7 @@ const generarNumeroAleatorio = () => {
 };
 
 const mostrarJuego = () => {
+  console.log("desde la funcion mostrarJuego");
   const contenedor = document.getElementById("juego");
   const btnJugar = document.getElementById("btnJugar");
   contenedor.classList.remove("d-none");
@@ -50,3 +51,4 @@ const adivinarNumero = (e) => {
 
 const formulario = document.getElementById("juego");
 formulario.addEventListener("submit", adivinarNumero);
+
