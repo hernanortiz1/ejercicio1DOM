@@ -8,11 +8,9 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  background-image: url('../img/Gemini_Generated_Image_t5go30t5go30t5go.png');
-  background-size: cover;          
-  background-position: center;
-  background-repeat: no-repeat;     
+  min-height: 100vh;  
+   overflow-x: hidden;
+   background-image: url('../img/Gemini_Generated_Image_t5go30t5go30t5go.png');
 }
 
 main {
@@ -31,3 +29,9 @@ main {
   background-color: #96ccff;
 }
 
+@media (max-width: 767px) {
+   .contenedorPrincipal {
+    padding: 15px;
+    margin: 10px;
+  }
+}
